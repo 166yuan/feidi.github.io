@@ -1,0 +1,27 @@
+{
+	"mysql":{
+	"username": "root",
+	"password": "123456789feidi",
+    "database": "javabackend",
+    "host": "112.74.129.253",
+    "dialect": "mysql"
+	},
+	"redis":{
+		"port":"6379",
+		"host":"112.74.129.253",
+		"password":"chaoking",
+		"max-idle":"8",
+		"min-idle":"0",
+		"max-active":"30",
+		"max-wait":"-1"
+	},
+	"email":{
+		"host":"smtp.163.com",
+		"port":25,
+		"secureConnection":true,
+		"auth":{
+			"user":"feiditeam@163.com",
+			"pass":"feiditeam123"
+		}
+	}
+}
